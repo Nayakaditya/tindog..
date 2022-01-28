@@ -1,2 +1,1 @@
-# tindog..
-Full Responsive website for Dogs Lover
+TinDog Starting Files

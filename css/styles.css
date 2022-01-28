@@ -1,0 +1,164 @@
+body{
+    font-family:'Montserrat';
+}
+
+/* all together */
+.carousel-item, #testimonials, #features,#pricing{
+    padding: 7% 15%;
+}
+
+/* Title section */
+
+h1{
+    font-family: 'Montserrat-Black', Montserrat;
+    font-size: 3.6rem;
+    line-height: 1.5;
+    color: #fff;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Section container */
+.coloured-section{
+    background-color: #ff4c68;
+}
+.white-section{
+    background-color: #fff;
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+    /* font-weight: lighter; */
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+
+/* Features Section */
+#features{
+    position: relative;
+}
+#icon{
+    margin: 0 40%;
+    font-size: 70px;
+    color: #ef8172;
+}
+#icon:hover{
+    color: #ff4c68;
+}
+.feature-text{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.feature-para{
+    text-align: center;
+    margin: 0 20px;
+    color: grey;
+}
+
+/* Testimonial Section */
+#testimonials{
+    text-align: center;
+    color: #fff;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* pricing section */
+
+.pricing_header{
+    text-align: center;
+    margin: 10% 0;
+}
+.pricing_header h2{
+    font-size: 3rem;
+}
+.price_naming{
+    text-align: center;
+    color: #fff;
+}
+.card-header{
+    background-color: #ff4c68;
+}
+.card{
+    border: 1px solid #ff4c68;
+}
+.card-body{
+    text-align: center;
+}
+.signUp{
+    padding: 5px 89px;
+}
+.card-button-effected:hover{
+    background-color: #ff4c68;
+    border: 1px solid #ff4c68;
+}
+#cta{
+    text-align: center;
+    padding-bottom: 5% 12%;
+}
+#last-heading{
+    padding: 9% 12%;
+    color: #fff;
+    font-size: 2.6rem;
+}
+#footer{
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+        margin-top: 30px;
+    }
+}
